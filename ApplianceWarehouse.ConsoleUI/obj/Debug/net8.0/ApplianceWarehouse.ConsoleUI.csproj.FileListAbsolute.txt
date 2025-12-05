@@ -1,0 +1,14 @@
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/bin/Debug/net8.0/ApplianceWarehouse.ConsoleUI
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/bin/Debug/net8.0/ApplianceWarehouse.ConsoleUI.deps.json
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/bin/Debug/net8.0/ApplianceWarehouse.ConsoleUI.runtimeconfig.json
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/bin/Debug/net8.0/ApplianceWarehouse.ConsoleUI.dll
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/bin/Debug/net8.0/ApplianceWarehouse.ConsoleUI.pdb
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ApplianceWarehouse.ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ApplianceWarehouse.ConsoleUI.AssemblyInfoInputs.cache
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ApplianceWarehouse.ConsoleUI.AssemblyInfo.cs
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ApplianceWarehouse.ConsoleUI.csproj.CoreCompileInputs.cache
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ApplianceWarehouse.ConsoleUI.dll
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/refint/ApplianceWarehouse.ConsoleUI.dll
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ApplianceWarehouse.ConsoleUI.pdb
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ApplianceWarehouse.ConsoleUI.genruntimeconfig.cache
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ref/ApplianceWarehouse.ConsoleUI.dll
