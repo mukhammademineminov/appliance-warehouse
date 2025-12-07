@@ -1,0 +1,3 @@
+1;LG Fridge;LG;450;Refrigerator;12
+2;Samsung Washer;Samsung;320;WashingMachine;8
+3;Bosch Dishwasher;Bosch;280;Dishwasher;5

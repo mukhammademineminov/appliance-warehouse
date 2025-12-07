@@ -1,5 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\ApplianceWarehouse.DAL\ApplianceWarehouse.DAL.csproj" />
+    <ProjectReference Include="..\ApplianceWarehouse.Domain\ApplianceWarehouse.Domain.csproj" />
+    <ProjectReference Include="..\ApplianceWarehouse.Services\ApplianceWarehouse.Services.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>

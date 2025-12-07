@@ -9,3 +9,4 @@
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Domain/obj/Debug/net8.0/refint/ApplianceWarehouse.Domain.dll
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Domain/obj/Debug/net8.0/ApplianceWarehouse.Domain.pdb
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Domain/obj/Debug/net8.0/ref/ApplianceWarehouse.Domain.dll
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Domain/obj/Debug/net8.0/ApplianceWarehouse.Domain.sourcelink.json

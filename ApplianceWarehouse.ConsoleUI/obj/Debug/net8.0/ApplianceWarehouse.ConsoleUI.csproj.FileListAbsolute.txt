@@ -12,3 +12,12 @@
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ApplianceWarehouse.ConsoleUI.pdb
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ApplianceWarehouse.ConsoleUI.genruntimeconfig.cache
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ref/ApplianceWarehouse.ConsoleUI.dll
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/bin/Debug/net8.0/ApplianceWarehouse.DAL.dll
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/bin/Debug/net8.0/ApplianceWarehouse.Domain.dll
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/bin/Debug/net8.0/ApplianceWarehouse.DAL.pdb
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/bin/Debug/net8.0/ApplianceWarehouse.Domain.pdb
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ApplianceWarehouse.ConsoleUI.csproj.AssemblyReference.cache
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/ApplianceWarehouse.ConsoleUI.sourcelink.json
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/obj/Debug/net8.0/Applianc.415ED571.Up2Date
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/bin/Debug/net8.0/ApplianceWarehouse.Services.dll
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.ConsoleUI/bin/Debug/net8.0/ApplianceWarehouse.Services.pdb

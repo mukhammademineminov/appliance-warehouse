@@ -1,7 +1,7 @@
 using ApplianceWarehouse.Domain.Entities;
 
-namespace ApplianceWarehouse.DAL.Repositories
-{
+namespace ApplianceWarehouse.Domain.Repositories;
+
     public interface IApplianceRepository
     {
         void Add(Appliance appliance);
@@ -10,4 +10,3 @@ namespace ApplianceWarehouse.DAL.Repositories
         void Update(Appliance appliance);
         void Delete(int id);
     }
-}
