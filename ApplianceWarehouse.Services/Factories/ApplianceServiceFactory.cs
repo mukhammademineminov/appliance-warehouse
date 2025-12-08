@@ -1,5 +1,5 @@
 using ApplianceWarehouse.Domain.Repositories;
-using ApplianceWarehouse.Servises.Interfaces;
+using ApplianceWarehouse.Services.Interfaces;
 using ApplianceWarehouse.Services.Implementations;
 
 namespace ApplianceWarehouse.Services.Factories;

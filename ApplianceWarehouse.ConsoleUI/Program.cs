@@ -1,16 +1,35 @@
 ﻿using ApplianceWarehouse.DAL.Factories;
-using ApplianceWarehouse.Domain.Entities;
-using ApplianceWarehouse.Services.Factories;
+using ApplianceWarehouse.Services.Implementations;
+using ApplianceWarehouse.Services.Interfaces;
+using ApplianceWarehouse.Controller;
+using ApplianceWarehouse.Controller.Factory;
 
-var repoFactory = new ApplianceRepositoryFactory("inventory.txt");
-var repo = repoFactory.CreateRepository();
+// Repository
+using System.IO;
 
-var serviceFactory = new ApplianceServiceFactory(repo);
-var service = serviceFactory.CreateService();
+// inventory path relative to the ConsoleUI project folder -> ../../ApplianceWarehouse.DAL/Sources/inventory.txt
+var inventoryPath = Path.Combine("..", "ApplianceWarehouse.DAL", "Sources", "inventory.txt");
+var repoFactory = new ApplianceWarehouse.DAL.Factories.ApplianceRepositoryFactory(inventoryPath);
+var repository = repoFactory.CreateRepository();
 
-var items = service.GetAll();
+// Service
+IApplianceService service = new ApplianceService(repository);
 
-foreach (var item in items)
+// Controller
+var commandProvider = new CommandProvider(service);
+var controller = new Controller(commandProvider);
+
+Console.WriteLine("Appliance Warehouse");
+Console.WriteLine("Enter commands (GETALL, GETBYID;1, EXIT)");
+
+while (true)
 {
-    Console.WriteLine($"{item.Id} | {item.Name} | {item.Category}");
+    Console.Write("Enter command: ");
+    var input = Console.ReadLine();
+
+    if (input == null || input.ToUpper() == "EXIT")
+        break;
+
+    var result = controller.Execute(input);
+    Console.WriteLine(result);
 }

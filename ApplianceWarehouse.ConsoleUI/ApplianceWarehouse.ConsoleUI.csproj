@@ -4,6 +4,7 @@
     <ProjectReference Include="..\ApplianceWarehouse.DAL\ApplianceWarehouse.DAL.csproj" />
     <ProjectReference Include="..\ApplianceWarehouse.Domain\ApplianceWarehouse.Domain.csproj" />
     <ProjectReference Include="..\ApplianceWarehouse.Services\ApplianceWarehouse.Services.csproj" />
+    <ProjectReference Include="..\ApplianceWarehouse.Controller\ApplianceWarehouse.Controller.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

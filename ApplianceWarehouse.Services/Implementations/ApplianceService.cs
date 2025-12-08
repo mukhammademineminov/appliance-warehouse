@@ -1,7 +1,7 @@
 using ApplianceWarehouse.Domain.Entities;
 using ApplianceWarehouse.Domain.Repositories;
 using ApplianceWarehouse.Services.Exceptions;
-using ApplianceWarehouse.Servises.Interfaces;
+using ApplianceWarehouse.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 

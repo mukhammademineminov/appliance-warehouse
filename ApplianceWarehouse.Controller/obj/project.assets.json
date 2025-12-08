@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "ApplianceWarehouse.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ApplianceWarehouse.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplianceWarehouse.Domain.dll": {}
+        }
+      },
+      "ApplianceWarehouse.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ApplianceWarehouse.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ApplianceWarehouse.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApplianceWarehouse.Services.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ApplianceWarehouse.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ApplianceWarehouse.Domain/ApplianceWarehouse.Domain.csproj",
+      "msbuildProject": "../ApplianceWarehouse.Domain/ApplianceWarehouse.Domain.csproj"
+    },
+    "ApplianceWarehouse.Services/1.0.0": {
+      "type": "project",
+      "path": "../ApplianceWarehouse.Services/ApplianceWarehouse.Services.csproj",
+      "msbuildProject": "../ApplianceWarehouse.Services/ApplianceWarehouse.Services.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "ApplianceWarehouse.Services >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/mukhammademineminov/.nuget/packages/": {}
@@ -31,7 +68,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Services/ApplianceWarehouse.Services.csproj": {
+              "projectPath": "/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Services/ApplianceWarehouse.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

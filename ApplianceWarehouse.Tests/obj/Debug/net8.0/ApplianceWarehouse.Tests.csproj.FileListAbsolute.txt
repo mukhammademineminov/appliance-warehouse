@@ -90,10 +90,10 @@
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Tests/obj/Debug/net8.0/ApplianceWarehouse.Tests.AssemblyInfoInputs.cache
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Tests/obj/Debug/net8.0/ApplianceWarehouse.Tests.AssemblyInfo.cs
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Tests/obj/Debug/net8.0/ApplianceWarehouse.Tests.csproj.CoreCompileInputs.cache
+/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Tests/obj/Debug/net8.0/ApplianceWarehouse.Tests.sourcelink.json
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Tests/obj/Debug/net8.0/Applianc.0964311D.Up2Date
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Tests/obj/Debug/net8.0/ApplianceWarehouse.Tests.dll
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Tests/obj/Debug/net8.0/refint/ApplianceWarehouse.Tests.dll
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Tests/obj/Debug/net8.0/ApplianceWarehouse.Tests.pdb
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Tests/obj/Debug/net8.0/ApplianceWarehouse.Tests.genruntimeconfig.cache
 /Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Tests/obj/Debug/net8.0/ref/ApplianceWarehouse.Tests.dll
-/Users/mukhammademineminov/Development-2025-2026/C#/course project/appliance-warehouse/ApplianceWarehouse.Tests/obj/Debug/net8.0/ApplianceWarehouse.Tests.sourcelink.json
