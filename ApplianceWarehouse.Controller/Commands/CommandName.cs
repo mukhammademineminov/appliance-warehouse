@@ -5,9 +5,9 @@ public enum CommandName
     GetAll,
     GetById,
     SearchByCategory,
+    SearchByBrand,
     SearchByPrice,
     Add,
     Update,
     Delete,
-    WrongRequest 
 }

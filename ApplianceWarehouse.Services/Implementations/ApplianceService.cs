@@ -2,31 +2,52 @@ using ApplianceWarehouse.Domain.Entities;
 using ApplianceWarehouse.Domain.Repositories;
 using ApplianceWarehouse.Services.Exceptions;
 using ApplianceWarehouse.Services.Interfaces;
-using System;
-using System.Collections.Generic;
 
 namespace ApplianceWarehouse.Services.Implementations;
 
 public class ApplianceService : IApplianceService
 {
 
-    public IEnumerable<Appliance> SearchByCategory(string categoryName)
+    private readonly IApplianceRepository _repository;
+
+    public ApplianceService(IApplianceRepository repository)
+    {
+        _repository = repository;
+    }
+    
+    public IEnumerable<Appliance> SearchByCategory(string category)
 {
-    if (!Enum.TryParse<ApplianceCategory>(categoryName, true, out var category))
-        throw new ServiceException($"Invalid category: {categoryName}");
+    if (!Enum.TryParse<ApplianceCategory>(category, true, out var categoryEnum))
+        throw new ServiceException($"Invalid category: {category}");
 
     try
     {
         return _repository.GetAll()
-                          .Where(a => a.Category == category);
+                          .Where(a => a.Category == categoryEnum);
     }
     catch (Exception ex)
     {
-        throw new ServiceException($"Error searching appliances by category '{categoryName}'", ex);
+        throw new ServiceException($"Error searching appliances by category '{category}'", ex);
     }
 }
 
-public IEnumerable<Appliance> SearchByPriceRange(decimal minPrice, decimal maxPrice)
+    public IEnumerable<Appliance> SearchByBrand(string brand)
+    {
+        if (string.IsNullOrWhiteSpace(brand))
+            throw new ServiceException("Brand cannot be empty");
+
+        try
+        {
+            return _repository.GetAll()
+                              .Where(a => a.Brand.Equals(brand, StringComparison.OrdinalIgnoreCase));
+        }
+        catch (Exception ex)
+        {
+            throw new ServiceException($"Error searching appliances by brand '{brand}'", ex);
+        }
+    }
+
+    public IEnumerable<Appliance> SearchByPriceRange(decimal minPrice, decimal maxPrice)
 {
     if (minPrice < 0 || maxPrice < 0)
         throw new ServiceException("Price cannot be negative");
@@ -44,11 +65,6 @@ public IEnumerable<Appliance> SearchByPriceRange(decimal minPrice, decimal maxPr
     }
 }
 
-    private readonly IApplianceRepository _repository;
-    public ApplianceService(IApplianceRepository repository)
-    {
-        _repository = repository;
-    }
 
     public IEnumerable<Appliance> GetAll()
     {
@@ -78,6 +94,9 @@ public IEnumerable<Appliance> SearchByPriceRange(decimal minPrice, decimal maxPr
     {
         if (appliance == null)
             throw new ServiceException("Appliance can not be null");
+            
+        if (appliance.Price < 0)
+            throw new ServiceException("Invalid price value.");
 
         try
         {

@@ -1,4 +1,3 @@
-using ApplianceWarehouse.Controller.Commands;
 using ApplianceWarehouse.Services.Interfaces;
 
 namespace ApplianceWarehouse.Controller.Commands;
@@ -25,6 +24,6 @@ public class GetByIdCommand : ICommand
         if (appliance == null)
             return $"ERROR: Appliance with ID {id} not found.";
 
-        return $"OK: {appliance.Id} | {appliance.Name} | {appliance.Price}";
+        return $"OK: {appliance.Id} | {appliance.Name} | {appliance.Brand} | {appliance.Category} | {appliance.Price} | {appliance.StockQuantity}";
     }
 }

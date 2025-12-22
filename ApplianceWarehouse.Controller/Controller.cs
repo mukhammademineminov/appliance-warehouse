@@ -14,7 +14,22 @@ public class Controller
     public string Execute(string rawRawquest)
     {
         var req = new Request(rawRawquest);
-        var command = _provider.GetCommand(req.Command);
-        return command.Execute(req);
+        try
+        {
+            var command = _provider.GetCommand(req.Command);
+            return command.Execute(req);
+        }
+        catch (Exceptions.UnknownCommandException ex)
+        {
+            return $"ERROR: {ex.Message}";
+        }
+        catch (Exceptions.InvalidParameterException ex)
+        {
+            return $"ERROR: {ex.Message}";
+        }
+        catch (ArgumentException ex)
+        {
+            return $"ERROR: {ex.Message}";
+        }
     }
 }

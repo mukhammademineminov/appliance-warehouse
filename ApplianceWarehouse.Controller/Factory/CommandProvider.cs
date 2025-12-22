@@ -13,7 +13,12 @@ public class CommandProvider
         {
             { CommandName.GetAll, new GetAllCommand(service) },
             { CommandName.GetById, new GetByIdCommand(service) },
-            { CommandName.WrongRequest, new WrongCommand() }
+            { CommandName.SearchByCategory, new SearchByCategoryCommand(service) },
+            { CommandName.SearchByBrand, new SearchByBrandCommand(service) },
+            { CommandName.SearchByPrice, new SearchByPriceCommand(service) },
+            { CommandName.Add, new AddCommand(service) },
+            { CommandName.Update, new UpdateCommand(service) },
+            { CommandName.Delete, new DeleteCommand(service) }
         };
     }
 
@@ -21,9 +26,12 @@ public class CommandProvider
     {
         if (Enum.TryParse<CommandName>(name, true, out var commandName))
         {
-            return commands[commandName];
+            if (commands.TryGetValue(commandName, out var command))
+                return command;
+
+            throw new Exceptions.UnknownCommandException($"Command '{name}' is recognized but not implemented.");
         }
 
-        return commands[CommandName.WrongRequest];
+        throw new Exceptions.UnknownCommandException($"Unknown command: {name}");
     }
 }

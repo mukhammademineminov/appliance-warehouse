@@ -1,0 +1,1 @@
+1;Test Fridge;TestBrand;100;Refrigerator;5

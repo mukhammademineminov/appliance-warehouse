@@ -1,3 +1,5 @@
 1;LG Fridge;LG;450;Refrigerator;12
 2;Samsung Washer;Samsung;320;WashingMachine;8
 3;Bosch Dishwasher;Bosch;280;Dishwasher;5
+4;LG heater;LG;89;Heater;11
+5;Artel AirConditioner;Artel;449;AirConditioner;30

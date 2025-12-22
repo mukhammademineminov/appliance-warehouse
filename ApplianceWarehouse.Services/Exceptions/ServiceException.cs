@@ -1,5 +1,3 @@
-using System;
-
 namespace ApplianceWarehouse.Services.Exceptions;
 
 public class ServiceException : Exception
